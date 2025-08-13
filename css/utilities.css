@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+}
+.items-center{
+align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.9rem 3rem;
+   
+    border:2px solid transparent ;
+    outline: none;
+     
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600; 
+    transition: all .3s ease;
+}
+.btn-primary{
+ background-color: #3dcfd3;
+ color: #161616;
+
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: #3dcfd3;
+    color: #3dcfd3;
+}
+.btn-secondary{
+    background: transparent;
+    color: #3dcfd3;
+    border-color: #3dcfd3;
+}
+.btn-secondary:hover{
+    background: #3dcfd3;
+    color:#ffffff
+}
+.flex-1{
+    flex:1;
+}
+.justify-center{
+    justify-content: center;
+}
